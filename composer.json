@@ -49,7 +49,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Rumbleh\\LaravelA1PdfSign\\": "./src"
+      "rumbleh\\LaravelA1PdfSign\\": "./src"
     },
     "files": [
       "src/Helpers/helpers.php"
@@ -57,7 +57,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Rumbleh\\LaravelA1PdfSign\\Tests\\": "./tests"
+      "rumbleh\\LaravelA1PdfSign\\Tests\\": "./tests"
     }
   },
   "scripts": {
@@ -66,7 +66,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Rumbleh\\LaravelA1PdfSign\\LaravelA1PdfSignServiceProvider"
+        "rumbleh\\LaravelA1PdfSign\\LaravelA1PdfSignServiceProvider"
       ]
     }
   },
