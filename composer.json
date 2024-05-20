@@ -1,12 +1,12 @@
 {
-  "name": "lsnepomuceno/laravel-a1-pdf-sign",
-  "description": "Sign PDF files with valid x509 certificates",
+  "name": "rumbleh/laravel-a1-pdf-sign",
+  "description": "Sign PDF files with valid x509 certificates - fork do Lucas, adicionei a opcao do legacy",
   "license": "MIT",
   "type": "library",
-  "homepage": "https://github.com/lsnepomuceno/laravel-a1-pdf-sign",
+  "homepage": "https://github.com/rumbleh/laravel-a1-pdf-sign",
   "support": {
-    "issues": "https://github.com/lsnepomuceno/laravel-a1-pdf-sign/issues",
-    "source": "https://github.com/lsnepomuceno/laravel-a1-pdf-sign"
+    "issues": "https://github.com/rumbleh/laravel-a1-pdf-sign/issues",
+    "source": "https://github.com/rumbleh/laravel-a1-pdf-sign"
   },
   "keywords": [
     "a1",
@@ -21,7 +21,7 @@
     {
       "name": "Lucas Nepomuceno",
       "email": "lsn.nepomuceno@gmail.com",
-      "homepage": "https://github.com/lsnepomuceno"
+      "homepage": "https://github.com/rumbleh"
     }
   ],
   "require": {
@@ -42,7 +42,7 @@
   },
   "autoload": {
     "psr-4": {
-      "LSNepomuceno\\LaravelA1PdfSign\\": "./src"
+      "Rumbleh\\LaravelA1PdfSign\\": "./src"
     },
     "files": [
       "src/Helpers/helpers.php"
@@ -50,7 +50,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "LSNepomuceno\\LaravelA1PdfSign\\Tests\\": "./tests"
+      "Rumbleh\\LaravelA1PdfSign\\Tests\\": "./tests"
     }
   },
   "scripts": {
@@ -59,7 +59,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "LSNepomuceno\\LaravelA1PdfSign\\LaravelA1PdfSignServiceProvider"
+        "Rumbleh\\LaravelA1PdfSign\\LaravelA1PdfSignServiceProvider"
       ]
     }
   },
