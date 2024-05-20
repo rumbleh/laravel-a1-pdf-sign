@@ -9,6 +9,12 @@
     "issues": "https://github.com/rumbleh/laravel-a1-pdf-sign/issues",
     "source": "https://github.com/rumbleh/laravel-a1-pdf-sign"
   },
+  "repositories": [
+      {
+          "type": "vcs",
+          "url": "https://github.com/seu-usuario/laravel-a1-pdf-sign"
+      }
+  ],
   "keywords": [
     "a1",
     "sign pdf",
