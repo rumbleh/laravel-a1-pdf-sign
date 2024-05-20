@@ -1,5 +1,6 @@
 {
   "name": "rumbleh/laravel-a1-pdf-sign",
+  "version": "1.0",
   "description": "Sign PDF files with valid x509 certificates - fork do Lucas, adicionei a opcao do legacy",
   "license": "MIT",
   "type": "library",
