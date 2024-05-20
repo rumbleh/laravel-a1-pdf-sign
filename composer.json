@@ -12,7 +12,7 @@
   "repositories": [
       {
           "type": "vcs",
-          "url": "https://github.com/seu-usuario/laravel-a1-pdf-sign"
+          "url": "https://github.com/rumbleh/laravel-a1-pdf-sign"
       }
   ],
   "keywords": [
