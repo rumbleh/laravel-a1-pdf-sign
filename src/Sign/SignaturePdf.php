@@ -1,10 +1,10 @@
 <?php
 
-namespace LSNepomuceno\LaravelA1PdfSign\Sign;
+namespace Rumbleh\LaravelA1PdfSign\Sign;
 
 use Illuminate\Support\{Facades\File, Str};
-use LSNepomuceno\LaravelA1PdfSign\Exceptions\{InvalidCertificateContentException, Invalidx509PrivateKeyException};
-use LSNepomuceno\LaravelA1PdfSign\Exceptions\{FileNotFoundException, InvalidPdfSignModeTypeException};
+use Rumbleh\LaravelA1PdfSign\Exceptions\{InvalidCertificateContentException, Invalidx509PrivateKeyException};
+use Rumbleh\LaravelA1PdfSign\Exceptions\{FileNotFoundException, InvalidPdfSignModeTypeException};
 use setasign\Fpdi\PdfParser\CrossReference\CrossReferenceException;
 use setasign\Fpdi\PdfParser\Filter\FilterException;
 use setasign\Fpdi\PdfParser\PdfParserException;

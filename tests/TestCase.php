@@ -1,8 +1,8 @@
 <?php
 
-namespace LSNepomuceno\LaravelA1PdfSign\Tests;
+namespace Rumbleh\LaravelA1PdfSign\Tests;
 
-use LSNepomuceno\LaravelA1PdfSign\LaravelA1PdfSignServiceProvider;
+use Rumbleh\LaravelA1PdfSign\LaravelA1PdfSignServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra

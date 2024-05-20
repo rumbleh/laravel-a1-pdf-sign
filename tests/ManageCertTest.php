@@ -1,18 +1,18 @@
 <?php
 
-namespace LSNepomuceno\LaravelA1PdfSign\Tests;
+namespace Rumbleh\LaravelA1PdfSign\Tests;
 
 use Illuminate\Encryption\Encrypter;
 use Illuminate\Support\Facades\File;
-use LSNepomuceno\LaravelA1PdfSign\Entities\CertificateProcessed;
-use LSNepomuceno\LaravelA1PdfSign\Exceptions\{CertificateOutputNotFoundException,
+use Rumbleh\LaravelA1PdfSign\Entities\CertificateProcessed;
+use Rumbleh\LaravelA1PdfSign\Exceptions\{CertificateOutputNotFoundException,
     FileNotFoundException,
     InvalidCertificateContentException,
     InvalidPFXException,
     Invalidx509PrivateKeyException,
     ProcessRunTimeException
 };
-use LSNepomuceno\LaravelA1PdfSign\Sign\ManageCert;
+use Rumbleh\LaravelA1PdfSign\Sign\ManageCert;
 use OpenSSLCertificate;
 
 class ManageCertTest extends TestCase

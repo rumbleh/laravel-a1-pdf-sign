@@ -1,11 +1,11 @@
 <?php
 
-namespace LSNepomuceno\LaravelA1PdfSign\Sign;
+namespace Rumbleh\LaravelA1PdfSign\Sign;
 
 use Closure;
 use Illuminate\Support\Fluent;
 use Intervention\Image\ImageManager as IMG;
-use LSNepomuceno\LaravelA1PdfSign\Exceptions\{InvalidImageDriverException};
+use Rumbleh\LaravelA1PdfSign\Exceptions\{InvalidImageDriverException};
 
 class SealImage
 {

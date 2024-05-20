@@ -2,14 +2,14 @@
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
-use LSNepomuceno\LaravelA1PdfSign\Exceptions\CertificateOutputNotFoundException;
-use LSNepomuceno\LaravelA1PdfSign\Exceptions\FileNotFoundException;
-use LSNepomuceno\LaravelA1PdfSign\Exceptions\InvalidCertificateContentException;
-use LSNepomuceno\LaravelA1PdfSign\Exceptions\InvalidPFXException;
-use LSNepomuceno\LaravelA1PdfSign\Exceptions\Invalidx509PrivateKeyException;
-use LSNepomuceno\LaravelA1PdfSign\Exceptions\ProcessRunTimeException;
-use LSNepomuceno\LaravelA1PdfSign\Sign\ManageCert;
-use LSNepomuceno\LaravelA1PdfSign\Tests\TestCase;
+use Rumbleh\LaravelA1PdfSign\Exceptions\CertificateOutputNotFoundException;
+use Rumbleh\LaravelA1PdfSign\Exceptions\FileNotFoundException;
+use Rumbleh\LaravelA1PdfSign\Exceptions\InvalidCertificateContentException;
+use Rumbleh\LaravelA1PdfSign\Exceptions\InvalidPFXException;
+use Rumbleh\LaravelA1PdfSign\Exceptions\Invalidx509PrivateKeyException;
+use Rumbleh\LaravelA1PdfSign\Exceptions\ProcessRunTimeException;
+use Rumbleh\LaravelA1PdfSign\Sign\ManageCert;
+use Rumbleh\LaravelA1PdfSign\Tests\TestCase;
 
 class CommandsTest extends TestCase
 {

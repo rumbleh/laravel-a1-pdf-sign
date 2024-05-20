@@ -1,13 +1,13 @@
 <?php
 
-namespace LSNepomuceno\LaravelA1PdfSign\Sign;
+namespace Rumbleh\LaravelA1PdfSign\Sign;
 
 use Illuminate\Contracts\Encryption\{DecryptException, EncryptException};
 use Illuminate\Encryption\Encrypter;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\{Facades\File, Str};
-use LSNepomuceno\LaravelA1PdfSign\Entities\CertificateProcessed;
-use LSNepomuceno\LaravelA1PdfSign\Exceptions\{CertificateOutputNotFoundException,
+use Rumbleh\LaravelA1PdfSign\Entities\CertificateProcessed;
+use Rumbleh\LaravelA1PdfSign\Exceptions\{CertificateOutputNotFoundException,
     FileNotFoundException,
     InvalidCertificateContentException,
     InvalidPFXException,

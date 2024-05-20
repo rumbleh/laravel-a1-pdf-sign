@@ -1,10 +1,10 @@
 <?php
 
-namespace LSNepomuceno\LaravelA1PdfSign\Sign;
+namespace Rumbleh\LaravelA1PdfSign\Sign;
 
 use Illuminate\Support\{Arr, Facades\File, Str};
-use LSNepomuceno\LaravelA1PdfSign\Entities\ValidatedSignedPDF;
-use LSNepomuceno\LaravelA1PdfSign\Exceptions\{FileNotFoundException,
+use Rumbleh\LaravelA1PdfSign\Entities\ValidatedSignedPDF;
+use Rumbleh\LaravelA1PdfSign\Exceptions\{FileNotFoundException,
     HasNoSignatureOrInvalidPkcs7Exception,
     InvalidPdfFileException,
     ProcessRunTimeException

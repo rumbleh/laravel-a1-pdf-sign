@@ -1,19 +1,19 @@
 <?php
 
-namespace LSNepomuceno\LaravelA1PdfSign\Tests;
+namespace Rumbleh\LaravelA1PdfSign\Tests;
 
 use Illuminate\Support\Facades\File;
 use Intervention\Image\ImageManager as IMG;
-use LSNepomuceno\LaravelA1PdfSign\Exceptions\CertificateOutputNotFoundException;
-use LSNepomuceno\LaravelA1PdfSign\Exceptions\FileNotFoundException;
-use LSNepomuceno\LaravelA1PdfSign\Exceptions\InvalidCertificateContentException;
-use LSNepomuceno\LaravelA1PdfSign\Exceptions\InvalidPdfSignModeTypeException;
-use LSNepomuceno\LaravelA1PdfSign\Exceptions\InvalidPFXException;
-use LSNepomuceno\LaravelA1PdfSign\Exceptions\Invalidx509PrivateKeyException;
-use LSNepomuceno\LaravelA1PdfSign\Exceptions\ProcessRunTimeException;
-use LSNepomuceno\LaravelA1PdfSign\Sign\ManageCert;
-use LSNepomuceno\LaravelA1PdfSign\Sign\SealImage;
-use LSNepomuceno\LaravelA1PdfSign\Sign\SignaturePdf;
+use Rumbleh\LaravelA1PdfSign\Exceptions\CertificateOutputNotFoundException;
+use Rumbleh\LaravelA1PdfSign\Exceptions\FileNotFoundException;
+use Rumbleh\LaravelA1PdfSign\Exceptions\InvalidCertificateContentException;
+use Rumbleh\LaravelA1PdfSign\Exceptions\InvalidPdfSignModeTypeException;
+use Rumbleh\LaravelA1PdfSign\Exceptions\InvalidPFXException;
+use Rumbleh\LaravelA1PdfSign\Exceptions\Invalidx509PrivateKeyException;
+use Rumbleh\LaravelA1PdfSign\Exceptions\ProcessRunTimeException;
+use Rumbleh\LaravelA1PdfSign\Sign\ManageCert;
+use Rumbleh\LaravelA1PdfSign\Sign\SealImage;
+use Rumbleh\LaravelA1PdfSign\Sign\SignaturePdf;
 use Throwable;
 
 class SealImageTest extends TestCase
